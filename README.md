@@ -16,6 +16,37 @@ https://www.ncbi.nlm.nih.gov/guide/howto/dwn-genome/
 ![Screenshot from 2022-04-07 14-46-34](https://user-images.githubusercontent.com/93121277/162202037-175dd435-2f68-41e6-82cc-efc096732a41.png)
 
 # I choose an ascension run ERR4835478 and used fastq-dump ERR4835478 to generate a fastq file
+![Screenshot from 2022-04-08 08-29-47](https://user-images.githubusercontent.com/93121277/162377667-e2775020-c0c4-42aa-bfd6-62522038b835.png)
+
+# Take a look at the HEader of The FASTQ file
+![Screenshot from 2022-04-08 08-32-01](https://user-images.githubusercontent.com/93121277/162377910-b62c2eb7-6e81-4dce-aee6-877d504047cb.png)
+
+# We run fastqc R package on our FASTQ file with the following R script
+```r
+setwd("/home/michael/Desktop/Alignment")
+install.packages("fastqcr")
+library(fastqcr)
+fastqc_install()
+fastqc(fq.dir = "/home/michael/Desktop/Alignment/FASTQ",threads = 4)
+qc.file <- "/home/michael/Desktop/Alignment/FASTQ/FASTQC/ERR4835478_fastqc.zip"
+qc <- qc_read(qc.file)
+names(qc)
+qc_plot(qc, "summary")
+qc_plot(qc, "Basic statistics")
+qc_plot(qc, "Per base sequence quality")
+qc_plot(qc, "Per base sequence content")
+qc_plot(qc, "Per sequence GC content")
+qc_plot(qc, "Per sequence quality scores")
+qc_plot(qc, "Sequence duplication levels")
+qc_plot(qc, "Per base N content")
+qc_plot(qc, "Sequence length distribution")
+qc_plot(qc, "Sequence duplication levels")
+qc_plot(qc, "Overrepresented sequences")
+qc_plot(qc, "Adapter content")
+qc_plot(qc, "Kmer content")
+
+```
+
 
 # Index your reference genome FASTA file first
 ![Screenshot from 2022-04-07 14-23-55](https://user-images.githubusercontent.com/93121277/162197997-c8a3b0d8-7c50-4135-81bb-16e35ea959a6.png)
