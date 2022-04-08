@@ -120,8 +120,15 @@ library(ggpubr)
 library(data.table)
 # Define a vector of Chromosomes
 Chroms <- c("NC_016131.3","NC_016132.3","NC_016133.3","NC_016134.3","NC_016135.3")
-QTLseqr::ChromQual(file = "vcfnewsamplename.vcf.gz",chromlist = Chroms, windowSize = 1e+06, HighLimQuality = 7500, scalar = 1, ncol = 5, binwidth1 = 100, binwidth2 = 1, p1 = TRUE, p2 = TRUE, p3 = TRUE, p4 = TRUE, p5 = TRUE)
+file <- "vcfnewsamplename.vcf.gz"
+QTLseqr::ChromQual(file = file,chromlist = Chroms, windowSize = 1e+05, HighLimQuality = 15000, scalar = 1, ncol = 5, binwidth1 = 10, binwidth2 = 100, p1 = TRUE, p2 = TRUE, p3 = TRUE, p4 = TRUE, p5 = TRUE)
 ```
+
+# Standard R Console Output
+
+![Screenshot from 2022-04-08 15-07-32](https://user-images.githubusercontent.com/93121277/162441867-f466f130-b44e-44d6-ad79-9f270e8d5ba0.png)
+
+# And the Plots Generated in View Panel
 
 
 
