@@ -128,10 +128,37 @@ QTLseqr::ChromQual(file = file,chromlist = Chroms, windowSize = 1e+05, HighLimQu
 
 ![Screenshot from 2022-04-08 15-07-32](https://user-images.githubusercontent.com/93121277/162441867-f466f130-b44e-44d6-ad79-9f270e8d5ba0.png)
 
-# And the Plots Generated in View Panel
+# And Plots p1, p2, and p5 as Generated in View Panel
 ![Screenshot from 2022-04-08 15-21-54](https://user-images.githubusercontent.com/93121277/162447191-dc5caa84-6a62-4636-bd8b-b0496c0b0296.png)
 
 ![Screenshot from 2022-04-08 15-26-48](https://user-images.githubusercontent.com/93121277/162447203-247d6abc-e561-4ef0-afb6-e1e48adb6445.png)
+
+
+
+# Using RMVP Package plot SNP densities per chromosome/contig
+
+```r
+library(rMVP)
+sample<-"ERR4835478"
+pathtosample <- "/home/michael/Desktop/Alignment/plots/vcfnewsamplename.vcf"
+out<- paste0("mvp.",sample,".vcf")
+memo<-paste0(sample)
+dffile<-paste0("mvp.",sample,".vcf.geno.map")
+
+message("Making MVP data S1")
+MVP.Data(fileVCF=pathtosample,
+         #filePhe="Phenotype.txt",
+         fileKin=FALSE,
+         filePC=FALSE,
+         out=out
+)
+message("Reading MVP Data S1")
+df <- read.table(file = dffile, header=TRUE)
+message("Making SNP Density Plots")
+MVP.Report.Density(df[,c(1:3)], bin.size = 100000, col = c("blue", "yellow", "red"), memo = memo, file.type = "jpg", dpi=300)
+```
+![Screenshot from 2022-04-08 15-54-00](https://user-images.githubusercontent.com/93121277/162450132-7599a588-0459-402f-94fd-dc8673e1992a.png)
+
 
 
 
