@@ -96,3 +96,7 @@ qc_plot(qc, "Kmer content")
 
 # Make a VCF file with BAM, Indexed Bam, and Reference Genome FASTA
 ![Screenshot from 2022-04-08 12-58-22](https://user-images.githubusercontent.com/93121277/162423567-ff43d996-3a2d-4734-97a4-705a6cf164d1.png)
+
+# At this point you should have 6 directories and 17 files
+![Screenshot from 2022-04-08 13-05-08](https://user-images.githubusercontent.com/93121277/162423814-b938fc05-0a25-4ad8-bfb3-572506f8f2dd.png)
+
