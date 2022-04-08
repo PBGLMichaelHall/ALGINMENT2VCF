@@ -106,6 +106,23 @@ qc_plot(qc, "Kmer content")
 # VCF Header and Info Fields
 ![Screenshot from 2022-04-08 13-30-48](https://user-images.githubusercontent.com/93121277/162427343-d3aedb2d-b8d1-4685-a582-2e2e15e510ee.png)
 
+# Use ChromQual to plot important figures with R Script
+```r
+setwd("/home/michael/Desktop/Alignment/plots")
+library(QTLseqr)
+library(tinytex)
+library(vcfR)
+library(tidyr)
+library(ggplot2)
+library(dplyr)
+library(ggrepel)
+library(ggpubr)
+library(data.table)
+# Define a vector of Chromosomes
+Chroms <- c("NC_016131.3","NC_016132.3","NC_016133.3","NC_016134.3","NC_016135.3")
+QTLseqr::ChromQual(file = "vcfnewsamplename.vcf.gz",chromlist = Chroms, windowSize = 1e+06, HighLimQuality = 7500, scalar = 1, ncol = 5, binwidth1 = 100, binwidth2 = 1, p1 = TRUE, p2 = TRUE, p3 = TRUE, p4 = TRUE, p5 = TRUE)
+```
+
 
 
 
