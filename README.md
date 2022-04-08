@@ -88,5 +88,6 @@ qc_plot(qc, "Kmer content")
 ![Screenshot from 2022-04-07 14-23-55](https://user-images.githubusercontent.com/93121277/162197997-c8a3b0d8-7c50-4135-81bb-16e35ea959a6.png)
 
 # Use samtools to sort BAM file
+![Screenshot from 2022-04-08 09-36-32](https://user-images.githubusercontent.com/93121277/162387820-63846ab2-4929-473a-8ab1-6f1ed827f312.png)
 
 
