@@ -100,3 +100,12 @@ qc_plot(qc, "Kmer content")
 # At this point you should have 6 directories and 17 files
 ![Screenshot from 2022-04-08 13-05-08](https://user-images.githubusercontent.com/93121277/162423814-b938fc05-0a25-4ad8-bfb3-572506f8f2dd.png)
 
+# Rename the sample to match Ascension Identifier
+![Screenshot from 2022-04-08 13-30-06](https://user-images.githubusercontent.com/93121277/162427212-e5232b6f-86b2-4f58-9eee-e8ff3fa1a605.png)
+
+# VCF Header and Info Fields
+![Screenshot from 2022-04-08 13-30-48](https://user-images.githubusercontent.com/93121277/162427343-d3aedb2d-b8d1-4685-a582-2e2e15e510ee.png)
+
+
+
+
