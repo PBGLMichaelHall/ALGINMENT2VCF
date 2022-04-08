@@ -16,6 +16,9 @@ https://www.ncbi.nlm.nih.gov/guide/howto/dwn-genome/
 ![Screenshot from 2022-04-07 14-46-34](https://user-images.githubusercontent.com/93121277/162202037-175dd435-2f68-41e6-82cc-efc096732a41.png)
 
 # I choose an ascension run ERR4835478 and used fastq-dump ERR4835478 to generate a fastq file
+fastq-dump ERR4835478
+
+# I use BWA to align Fasta with FASTQ and generate BAM file
 ![Screenshot from 2022-04-08 08-29-47](https://user-images.githubusercontent.com/93121277/162377667-e2775020-c0c4-42aa-bfd6-62522038b835.png)
 # ~9 Hours @ 18.1 GB
 
