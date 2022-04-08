@@ -94,3 +94,5 @@ qc_plot(qc, "Kmer content")
 ![Screenshot from 2022-04-08 09-40-36](https://user-images.githubusercontent.com/93121277/162388885-97a1e191-31c0-48a3-a0fb-da8e5b9da221.png)
 
 
+# Make a VCF file with BAM, Indexed Bam, and Reference Genome FASTA
+![Screenshot from 2022-04-08 12-58-22](https://user-images.githubusercontent.com/93121277/162423567-ff43d996-3a2d-4734-97a4-705a6cf164d1.png)
