@@ -160,6 +160,11 @@ MVP.Report.Density(df[,c(1:3)], bin.size = 100000, col = c("blue", "yellow", "re
 ```
 ![Screenshot from 2022-04-08 15-54-00](https://user-images.githubusercontent.com/93121277/162450132-7599a588-0459-402f-94fd-dc8673e1992a.png)
 
+# The IGV can be used to view Variants as well
 
+![Screenshot from 2022-04-11 14-09-00](https://user-images.githubusercontent.com/93121277/162754446-47ffb82d-8fd0-4683-96cb-39e3194b151a.png)
+
+# Can also see particular statistics on each variant by double clicking
+![Screenshot from 2022-04-11 14-14-49](https://user-images.githubusercontent.com/93121277/162754522-ad24159a-bc45-4696-b86e-19daa61b3d0a.png)
 
 
