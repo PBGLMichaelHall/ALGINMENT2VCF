@@ -133,6 +133,7 @@ QTLseqr::ChromQual(file = file,chromlist = Chroms, windowSize = 1e+05, HighLimQu
 
 ![Screenshot from 2022-04-08 15-26-48](https://user-images.githubusercontent.com/93121277/162447203-247d6abc-e561-4ef0-afb6-e1e48adb6445.png)
 
+![Screenshot from 2022-04-11 08-54-33](https://user-images.githubusercontent.com/93121277/162681614-094c6a21-1637-4a6b-acff-05aec02f043b.png)
 
 
 # Using RMVP Package plot SNP densities per chromosome/contig
