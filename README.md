@@ -181,3 +181,6 @@ MVP.Report.Density(df[,c(1:3)], bin.size = 100000, col = c("blue", "yellow", "re
 ![AsparticAcid](https://user-images.githubusercontent.com/93121277/162775030-9a74e738-8c00-4457-aec4-708684350de9.png)
 
 # So similar proteins but NOT THE SAME!
+
+# A Good reference for AMino Acids
+https://www.aatbio.com/data-sets/amino-acid-reference-chart-table
