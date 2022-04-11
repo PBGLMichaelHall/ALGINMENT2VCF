@@ -167,4 +167,13 @@ MVP.Report.Density(df[,c(1:3)], bin.size = 100000, col = c("blue", "yellow", "re
 # Can also see particular statistics on each variant by double clicking
 ![Screenshot from 2022-04-11 14-14-49](https://user-images.githubusercontent.com/93121277/162754522-ad24159a-bc45-4696-b86e-19daa61b3d0a.png)
 
+# The Reference Genome makes the Protein Asparagine from the DNA sequence AAT
+# So does the SNP change the protein that is made, yes in some cases it does including this one.
+# Here is the molecular structure of Asparagine
+
+![Asparagine](https://user-images.githubusercontent.com/93121277/162773795-6e4eafec-56af-477c-93be-af054b100c2f.png)
+
+# The SNP changes AAT to GAT which makes the protein Aspartic Acid
+
+![AsparticAcid](https://user-images.githubusercontent.com/93121277/162775030-9a74e738-8c00-4457-aec4-708684350de9.png)
 
