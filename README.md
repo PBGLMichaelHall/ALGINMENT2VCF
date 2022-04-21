@@ -184,3 +184,44 @@ MVP.Report.Density(df[,c(1:3)], bin.size = 100000, col = c("blue", "yellow", "re
 
 # A Good reference for AMino Acids
 https://www.aatbio.com/data-sets/amino-acid-reference-chart-table
+
+#We can also use Qualimap for more analysis. I made an environment for this purpose.
+![qualimapenvironment](https://user-images.githubusercontent.com/93121277/164391646-d8860f04-62fa-4257-b0d9-832943fc6d29.png)
+
+#And then I ran this command
+![qualimap](https://user-images.githubusercontent.com/93121277/164391677-bed72ae6-7a7c-4dcd-9e58-779974ffeeaf.png)
+
+#Select file drop down to New Analysis and finally BAMQC. Browse your directory for the sorted BAM file and >>>>> Start Analysis
+![aag](https://user-images.githubusercontent.com/93121277/164392252-071aa607-87fc-453a-a32b-a47f348e299f.png)
+
+![99](https://user-images.githubusercontent.com/93121277/164392943-237a8070-2e80-47c6-be8f-e341657b47cc.png)
+
+![100](https://user-images.githubusercontent.com/93121277/164392958-970e85d8-0190-40f0-b5f6-73f85842bde5.png)
+
+![101](https://user-images.githubusercontent.com/93121277/164392971-fff0db97-ab54-46a0-b848-f1817cf809c0.png)
+
+![102](https://user-images.githubusercontent.com/93121277/164392981-7923627e-d58d-456e-9e3c-7b7156c8670f.png)
+
+![103](https://user-images.githubusercontent.com/93121277/164393076-30c09c38-b7c6-421e-a594-b1832a3366bb.png)
+
+![104](https://user-images.githubusercontent.com/93121277/164393103-a013dc04-131b-4562-9d7e-5cef11f55578.png)
+
+![105](https://user-images.githubusercontent.com/93121277/164393126-386a3ec9-cdcf-47c5-9fd7-3c3c606a07e3.png)
+
+![106](https://user-images.githubusercontent.com/93121277/164393147-a19c5ec6-f520-47ff-9e08-261d51ad7a60.png)
+
+![107](https://user-images.githubusercontent.com/93121277/164393159-8984a496-79e7-4ea9-9c11-b3bd59108ef9.png)
+
+![108](https://user-images.githubusercontent.com/93121277/164393172-8c0a6b10-d88f-4e12-b861-b4758be311c3.png)
+
+![110](https://user-images.githubusercontent.com/93121277/164393191-653d1f51-537f-472b-8a6b-a2e111e4b7a4.png)
+
+![111](https://user-images.githubusercontent.com/93121277/164393198-b0711c69-c521-4c37-9080-f13e8b05c0f6.png)
+
+![112](https://user-images.githubusercontent.com/93121277/164393216-52acb8db-8930-4d9c-aacd-711fcc497bfe.png)
+
+
+
+
+
+
